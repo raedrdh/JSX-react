@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import imagesrc from "./imagesrc.png";
+import './style.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style = {{border:'solid 1px black', maxwidth:'100vw'}}>
+     <h1 className='titel red'>
+       Rdhaounia Raed 
+     </h1>
+     <div>
+       <br/>
+     </div>
+     <img src={imagesrc} alt='image source' />
+     <div>
+       <br/>
+     </div>
+     <img src='/imagepub.png'/>
+     <div>
+     <iframe width="692" height="389" src="https://www.youtube.com/embed/4wLflrOIb80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </div>
     </div>
   );
 }
